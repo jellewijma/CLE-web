@@ -28,7 +28,7 @@
             <th>Genre</th>
             <th>Year</th>
             <th>Tracks</th>
-            <th colspan=3"></th>
+            <th colspan="3"></th>
         </tr>
         </thead>
         <tfoot>
