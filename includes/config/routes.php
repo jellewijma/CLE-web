@@ -12,11 +12,11 @@
 
 $routes = [
     '' => 'WebHandler@index',
-    // 'detail' => 'AlbumController@detail',
-    // 'create' => 'AlbumController@create',
-    // 'edit' => 'AlbumController@edit',
-    // 'delete' => 'AlbumController@delete',
-    // 'login' => 'AccountController@login',
-    // 'logout' => 'AccountController@logout',
-    // 'user' => 'AccountController@register'
+    'about' => 'WebHandler@about',
+    //     'dashboard' => 'WebHandler@dashboard', 
+    // 'login' => 'AccountHandler@login',
+    //     'logout' => 'AccountHandler@logout',
+    //     'user' => 'AccountHandler@register'
+
+
 ];

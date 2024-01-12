@@ -1,2 +1,8 @@
 
-[11-01-2024 11:42] Class \System\Handlers\WebController does not exist! on line 57 of C:\xampp\htdocs\includes\classes\System\Bootstrap\WebBootstrap.php
+[12-01-2024 10:21] Undefined array key "artist" on line 37 of C:\xampp\htdocs\includes\classes\System\Form\Data.php
+[12-01-2024 10:23] Undefined array key "startDate" on line 37 of C:\xampp\htdocs\includes\classes\System\Form\Data.php
+[12-01-2024 10:24] Undefined array key "startDate" on line 37 of C:\xampp\htdocs\includes\classes\System\Form\Data.php
+[12-01-2024 10:26] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id' cannot be null on line 123 of C:\xampp\htdocs\includes\classes\System\Databases\BaseObject.php
+[12-01-2024 10:33] Class \System\Handlers\WebController does not exist! on line 57 of C:\xampp\htdocs\includes\classes\System\Bootstrap\WebBootstrap.php
+[12-01-2024 10:34] Route does not exist on line 63 of C:\xampp\htdocs\includes\classes\System\Handlers\BaseHandler.php
+[12-01-2024 10:34] Route does not exist on line 63 of C:\xampp\htdocs\includes\classes\System\Handlers\BaseHandler.php

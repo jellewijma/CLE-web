@@ -1,4 +1,6 @@
-<?php namespace System\Handlers;
+<?php
+
+namespace System\Handlers;
 
 use System\Form\Data;
 use System\Form\Validation\AlbumValidator;
