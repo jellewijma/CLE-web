@@ -1,4 +1,4 @@
-<header class="text-gray-600 body-font">
+<!-- <header class="text-gray-600 body-font border-t-[20px] border-[#620d0d]">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -26,6 +26,37 @@
       </a>
     <?php endif; ?>
   </div>
+</header> -->
+
+<header class="text-gray-600 body-font border-t-[20px] border-[#620d0d]">
+  <div class="container mx-auto flex justify-center flex-wrap p-5 flex-col md:flex-row items-center">
+    <nav class="flex flex-wrap items-center text-base justify-center w-1/3">
+      <a href="/about" class="mr-5 hover:text-gray-900">Over ons</a>
+      <a href="/dashboard" class="mr-5 hover:text-gray-900">Dashboard</a>
+      <a class="mr-5 hover:text-gray-900">Third Link</a>
+      <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+    </nav>
+    <div class="w-1/3 flex justify-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-32 w-1/3">
+        <img src="/images/Logo-Phileas.svg" alt="" srcset="" class="">
+      </a>
+    </div>
+    <div class="w-1/3 flex justify-center">
+      <?php if ($this->session->keyExists('user')) : ?>
+        <a href="/logout" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Logout
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      <?php else : ?>
+        <a href="/login" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      <?php endif; ?>
+    </div>
+  </div>
 </header>
 
 <?php if (!empty($errors)) : ?>
@@ -43,25 +74,23 @@
 <?php } ?>
 
 <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+  <div class="container w-screen mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-[#001030]">
+    <img src="/images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
   </div>
 </section>
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block">readymade gluten
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">De Thuishaven
       </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant
-        cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic
-        tumeric truffaut hexagon try-hard chambray.</p>
+      <p class="mb-8 leading-relaxed">Dit is het centrale punt voor alle leden van studentenvereniging Phileas Fogg, zogezegd de thuishaven, de huiskamer. Dit is de plek waar verschillende genootschappen, disputen en jaarclubs samenkomen voor activiteiten, vergaderingen én om gezamenlijk te genieten van het bier. Onze sociëteit wordt wekelijks gebruikt voor interne én externe/open feesten. Toegang tot de sociëteit is op dinsdag alleen voor leden. Op de andere dagen worden er verscheidene evenementen georganiseerd.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Openings tijden</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Maps</button>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      <img class="object-cover object-center rounded" alt="hero" src="/images/cafe.jpg">
     </div>
   </div>
 </section>
@@ -69,7 +98,7 @@
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:pr-24 md:pr-16">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      <img class="object-cover object-center rounded" alt="hero" src="/images/IMG_3539-1024x683.jpeg">
     </div>
     <div class="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
