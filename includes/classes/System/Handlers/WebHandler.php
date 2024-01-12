@@ -65,6 +65,20 @@ class WebHandler extends BaseHandler
         $this->renderTemplate(['pageTitle' => 'Over ons']);
     }
 
+    protected function dashboard(): void
+    {
+        $web = Web::getAll();
+
+        if (!$this->session->keyExists('user')) {
+            header('Location: /login');
+            exit;
+        }
+        $this->renderTemplate([
+            'pageTitle' => 'Dashboard',
+            'web' => $web
+        ]);
+    }
+
     // protected function create(): void
     // {
     //     //If not logged in, redirect to login
