@@ -22,7 +22,7 @@ class AccountHandler extends BaseHandler
     {
         //If already logged in, no need to be here
         if ($this->session->keyExists('user')) {
-            header('Location: /');
+            header('Location: index');
             exit;
         }
 
@@ -51,7 +51,7 @@ class AccountHandler extends BaseHandler
         //When no error, set session variable, redirect & exit script
         if (isset($user) && empty($this->errors)) {
             $this->session->set('user', $user);
-            header('Location: /');
+            header('Location: index');
             exit;
         }
 
