@@ -1,4 +1,6 @@
-<?php namespace System\Handlers;
+<?php
+
+namespace System\Handlers;
 
 use System\Form\Data;
 use System\Form\Validation\LoginValidator;
@@ -20,7 +22,7 @@ class AccountHandler extends BaseHandler
     {
         //If already logged in, no need to be here
         if ($this->session->keyExists('user')) {
-            header('Location: create');
+            header('Location: /');
             exit;
         }
 
@@ -46,11 +48,10 @@ class AccountHandler extends BaseHandler
             $validator->validate();
             $this->errors = $validator->getErrors();
         }
-
         //When no error, set session variable, redirect & exit script
         if (isset($user) && empty($this->errors)) {
             $this->session->set('user', $user);
-            header('Location: create');
+            header('Location: /');
             exit;
         }
 
@@ -78,15 +79,15 @@ class AccountHandler extends BaseHandler
     {
         //TEMP script just to add an user.
         $user = new User();
-        $user->email = 'moora@hr.nl';
-        $user->password = password_hash('test', PASSWORD_DEFAULT);
-        $user->name = 'Antwan';
+        $user->email = 'jelle.wijma@gmail.com';
+        $user->password = password_hash('jelle', PASSWORD_DEFAULT);
+        $user->name = 'Jelle';
         $user->save();
         exit;
 
-//        $user = User::getByEmail('moora@hr.nl');
-//        $user->name = "Antwann";
-//        $user->save();
-//        exit;
+        //        $user = User::getByEmail('moora@hr.nl');
+        //        $user->name = "Antwann";
+        //        $user->save();
+        //        exit;
     }
 }

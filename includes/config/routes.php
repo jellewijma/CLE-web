@@ -14,9 +14,9 @@ $routes = [
     '' => 'WebHandler@index',
     'about' => 'WebHandler@about',
     //     'dashboard' => 'WebHandler@dashboard', 
-    // 'login' => 'AccountHandler@login',
-    //     'logout' => 'AccountHandler@logout',
-    //     'user' => 'AccountHandler@register'
+    'login' => 'AccountHandler@login',
+    'logout' => 'AccountHandler@logout',
+    'user' => 'AccountHandler@register'
 
 
 ];
