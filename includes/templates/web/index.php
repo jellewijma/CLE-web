@@ -75,7 +75,7 @@
 
 <section class="text-gray-600 body-font">
   <div class="container w-screen mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-  ">
-    <img src="/images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
+    <img src="./images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
   </div>
 </section>
 <section class="text-gray-600 body-font">
@@ -90,7 +90,7 @@
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="/images/cafe.jpg">
+      <img class="object-cover object-center rounded" alt="hero" src="./images/cafe.jpg">
     </div>
   </div>
 </section>
@@ -98,7 +98,7 @@
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:pr-24 md:pr-16">
-      <img class="object-cover object-center rounded" alt="hero" src="/images/IMG_3539-1024x683.jpeg">
+      <img class="object-cover object-center rounded" alt="hero" src="./images/IMG_3539-1024x683.jpeg">
     </div>
     <div class="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
@@ -172,7 +172,7 @@
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-32 w-1/3">
-          <img src="/images/Logo-Phileas.svg" alt="" srcset="" class="">
+          <img src="./images/Logo-Phileas.svg" alt="" srcset="" class="">
         </a>
       </a>
     </div>
