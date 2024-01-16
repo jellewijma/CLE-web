@@ -123,12 +123,13 @@
         asymmetrical gentrify.</p>
     </div>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
-      <div class="flex flex-wrap -m-2">
+      <!-- <div class="flex flex-wrap -m-2"> -->
+      <div>
         <?php if (isset($web)) : ?>
-          <form action="" method="post">
+          <form action="" method="post" class="flex flex-wrap">
             <div class="p-2 w-1/2">
               <div class="relative">
-                <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                <label for="name" class="leading-7 text-sm text-gray-600">Naam</label>
                 <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
               </div>
             </div>
@@ -141,13 +142,13 @@
             <div class="p-2 w-1/2">
               <div class="relative">
                 <label for="startDate" class="leading-7 text-sm text-gray-600">Begin datum</label>
-                <input type="date" id="startDate" name="startDate" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                <input type="datetime-local" id="startDate" name="startDate" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
               </div>
             </div>
             <div class="p-2 w-1/2">
               <div class="relative">
                 <label for="endDate" class="leading-7 text-sm text-gray-600">Eind datum</label>
-                <input type="date" id="endDate" name="endDate" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                <input type="datetime-local" id="endDate" name="endDate" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
               </div>
             </div>
             <div class="p-2 w-full">
