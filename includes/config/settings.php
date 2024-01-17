@@ -1,12 +1,12 @@
 <?php
 //Define DB credentials
 const DB_HOST = 'localhost';
-const DB_USER = 'root';
-const DB_PASS = '';
-const DB_NAME = 'web';
+const DB_USER = 'prj_2023_2024_ressys_t19';
+const DB_PASS = 'eiceekee';
+const DB_NAME = 'prj_2023_2024_ressys_t19';
 
 //Paths
-const BASE_PATH = '/school/CLE2/web2/';
+const BASE_PATH = '/2023_2024/ressys_t19/';
 const LOG_PATH = __DIR__ . '/../logs/';
 const INCLUDES_PATH = __DIR__ . '/../';
 
