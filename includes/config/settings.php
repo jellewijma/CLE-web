@@ -6,7 +6,7 @@ const DB_PASS = '';
 const DB_NAME = 'web';
 
 //Paths
-const BASE_PATH = '/school/CLE2/web2/';
+const BASE_PATH = '/project/web/';
 const LOG_PATH = __DIR__ . '/../logs/';
 const INCLUDES_PATH = __DIR__ . '/../';
 

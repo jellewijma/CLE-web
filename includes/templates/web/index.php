@@ -31,25 +31,25 @@
 <header class="text-gray-600 body-font border-t-[20px] border-[#620d0d]">
   <div class="container mx-auto flex justify-center flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex flex-wrap items-center text-base justify-center w-1/3">
-      <a href="/about" class="mr-5 hover:text-gray-900">Over ons</a>
-      <a href="/dashboard" class="mr-5 hover:text-gray-900">Dashboard</a>
+      <a href="<?= BASE_PATH ?>about" class="mr-5 hover:text-gray-900">Over ons</a>
+      <a href="<?= BASE_PATH ?>dashboard" class="mr-5 hover:text-gray-900">Dashboard</a>
       <a class="mr-5 hover:text-gray-900">Third Link</a>
       <a class="mr-5 hover:text-gray-900">Fourth Link</a>
     </nav>
     <div class="w-1/3 flex justify-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-32 w-1/3">
-        <img src="/images/Logo-Phileas.svg" alt="" srcset="" class="">
+        <img src="<?= BASE_PATH ?>images/Logo-Phileas.svg" alt="" srcset="" class="">
       </a>
     </div>
     <div class="w-1/3 flex justify-center">
       <?php if ($this->session->keyExists('user')) : ?>
-        <a href="/logout" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Logout
+        <a href="<?= BASE_PATH ?>logout" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Logout
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>
       <?php else : ?>
-        <a href="/login" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+        <a href="<?= BASE_PATH ?>login" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -75,7 +75,7 @@
 
 <section class="text-gray-600 body-font">
   <div class="container w-screen mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-  ">
-    <img src="./images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
+    <img src="<?= BASE_PATH ?>images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
   </div>
 </section>
 <section class="text-gray-600 body-font">

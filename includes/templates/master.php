@@ -17,7 +17,7 @@
 
 <body>
     <!-- <div class="container px-4 mx-auto"> -->
-    <div class="">
+    <div class="w-screen h-screen overflow-x-hidden">
         <?= $content ?? ''; ?>
     </div>
 </body>
