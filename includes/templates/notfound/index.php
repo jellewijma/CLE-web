@@ -1,10 +1,10 @@
-<?php
-/**
- * @var string $pageTitle
- */
-?>
-<h1 class="title mt-4"><?= $pageTitle; ?></h1>
-<section class="content">
-    <p>This page is unfortunately not available.</p>
-</section>
-<a class="button mt-4" href="<?= BASE_PATH; ?>">&laquo; Go back to the list</a>
+<main class="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div class="text-center">
+        <p class="text-base font-semibold text-[#620d0d]">404</p>
+        <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Page not found</h1>
+        <p class="mt-6 text-base leading-7 text-gray-600">Sorry, we couldn’t find the page you’re looking for.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="<?= BASE_PATH; ?>" class="rounded-md bg-[#620d0d] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Go back home</a>
+        </div>
+    </div>
+</main>
