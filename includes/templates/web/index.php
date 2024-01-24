@@ -115,10 +115,6 @@
         <span class="font-bold">Culinaire Ervaring:</span> Ontdek een menu vol smaakvolle gerechten en verfrissende drankjes, samengesteld met oog voor kwaliteit en diversiteit.<br>
         <span class="font-bold">Evenementen:</span> Van themafeesten tot quizavonden, bij Phileas Fogg is er altijd wel iets te beleven. Blijf op de hoogte van onze evenementenkalender en mis niets!
       </p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-red-950 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div>
     </div>
 
   </div>

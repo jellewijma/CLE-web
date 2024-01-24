@@ -73,7 +73,7 @@ class AccountHandler extends BaseHandler
     protected function logout(): void
     {
         $this->session->destroy();
-        header('Location: ' . BASE_PATH . ' /login');
+        header('Location: ' . BASE_PATH . 'login');
 
         exit;
     }

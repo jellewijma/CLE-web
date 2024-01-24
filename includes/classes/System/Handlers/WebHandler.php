@@ -70,7 +70,7 @@ class WebHandler extends BaseHandler
         $web = Web::getAll();
 
         if (!$this->session->keyExists('user')) {
-            header('Location: ' . BASE_PATH . ' /login');
+            header('Location: ' . BASE_PATH . 'login');
             exit;
         }
         $this->renderTemplate([
