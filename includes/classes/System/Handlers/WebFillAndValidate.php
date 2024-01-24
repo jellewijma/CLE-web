@@ -22,7 +22,7 @@ trait WebFillAndValidate
             $this->web->email = $this->formData->getPostVar('email');
             $this->web->startDate = $this->formData->getPostVar('startDate');
             $this->web->endDate = $this->formData->getPostVar('endDate');
-            $this->web->message = (int)$this->formData->getPostVar('message');
+            $this->web->message = $this->formData->getPostVar('message');
 
             //Actual validation
             $validator = new WebValidator($this->web);

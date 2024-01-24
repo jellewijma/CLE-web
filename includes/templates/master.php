@@ -17,9 +17,24 @@
 
 <body>
     <!-- <div class="container px-4 mx-auto"> -->
-    <div class="w-screen h-screen overflow-x-hidden">
+    <div class="w-screen h-screen overflow-x-hidden hide-scroll">
         <?= $content ?? ''; ?>
     </div>
 </body>
 
 </html>
+
+
+<style>
+    .hide-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* For IE, Edge and Firefox */
+    .hide-scroll {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+</style>
