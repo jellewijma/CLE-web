@@ -8,3 +8,6 @@
 [12-01-2024 10:34] Route does not exist on line 63 of C:\xampp\htdocs\includes\classes\System\Handlers\BaseHandler.php
 [12-01-2024 11:27] Undefined array key "user" on line 47 of C:\xampp\htdocs\includes\classes\System\Handlers\BaseHandler.php
 [12-01-2024 11:27] Undefined array key "user" on line 47 of C:\xampp\htdocs\includes\classes\System\Handlers\BaseHandler.php
+[24-01-2024 12:39] Undefined variable $success on line 64 of C:\xampp\htdocs\project\web\includes\templates\web\open.php
+[24-01-2024 12:40] Undefined variable $success on line 64 of C:\xampp\htdocs\project\web\includes\templates\web\open.php
+[24-01-2024 12:40] Undefined variable $success on line 64 of C:\xampp\htdocs\project\web\includes\templates\web\open.php
