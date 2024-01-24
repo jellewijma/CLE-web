@@ -12,7 +12,9 @@
 
 $routes = [
     '' => 'WebHandler@index',
+    'index' => 'WebHandler@index',
     'about' => 'WebHandler@about',
+    'open' => 'WebHandler@open',
     'dashboard' => 'WebHandler@dashboard',
     'login' => 'AccountHandler@login',
     'logout' => 'AccountHandler@logout',

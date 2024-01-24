@@ -79,6 +79,13 @@ class WebHandler extends BaseHandler
         ]);
     }
 
+    protected function open(): void
+    {
+        $this->renderTemplate([
+            'pageTitle' => "Openings tijden",
+        ]);
+    }
+
     // protected function create(): void
     // {
     //     //If not logged in, redirect to login
