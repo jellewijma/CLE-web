@@ -41,7 +41,7 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Artboard-3-1.png">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Tom van Dodewaard</h2>
               <h3 class="text-gray-500 mb-3">Voorzitter</h3>
@@ -70,7 +70,7 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Cas-2-ver.png">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Cas Luijmes</h2>
               <h3 class="text-gray-500 mb-3">Vice-voorzitter</h3>
@@ -99,11 +99,11 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Noor-2-ver.png">
             <div class="flex-grow sm:pl-8">
-              <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-              <h3 class="text-gray-500 mb-3">UI Developer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Noor Kalee</h2>
+              <h3 class="text-gray-500 mb-3">Secretaris</h3>
+              <p class="mb-4">Als secretaris ben je het contactpersoon van de vereniging. Je zorgt ervoor dat alle inkomende en uitgaande post/mail wordt geregeld. Hiervoor is een gestructureerde houding erg belangrijk. Daarnaast zorg je elke 3 maanden voor een toffe editie van de Phileas periodiek. Dit doe je samen met de periodiek commissie. Uiteraard ondersteun je het Dagelijks Bestuur waar nodig.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -128,11 +128,11 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Eva-2-ver.png">
             <div class="flex-grow sm:pl-8">
-              <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-              <h3 class="text-gray-500 mb-3">Designer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Eva Bouts</h2>
+              <h3 class="text-gray-500 mb-3">Penningmeester</h3>
+              <p class="mb-4">Als penningmeester ben ik verantwoordelijk voor de financiën van Phileas Fogg. Ik houd maandelijks de in- en uitgaven bij, maak begrotingen en zorg dat alles financieel vlekkeloos verloopt.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -157,11 +157,11 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Jos-2-ver.png">
             <div class="flex-grow sm:pl-8">
-              <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-              <h3 class="text-gray-500 mb-3">Designer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Josephine Peeters Meijer</h2>
+              <h3 class="text-gray-500 mb-3">PR-functionaris</h3>
+              <p class="mb-4">Als pr functionaris ben ik verantwoordelijk voor het werven van nieuwe sponsoren en het behouden van huidige sponsoren. Ik ben de contact persoon als bedrijven en of sponsoren contacten willen leggen met onze vereniging.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -186,11 +186,11 @@
         </div>
         <div class="p-4 lg:w-1/2">
           <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Fleur-1-ver.png">
             <div class="flex-grow sm:pl-8">
-              <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
+              <h2 class="title-font font-medium text-lg text-gray-900">Fleur Aschman</h2>
               <h3 class="text-gray-500 mb-3">Designer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <p class="mb-4">Als Algemeen Coördinator ben ik verantwoordelijk voor de intro periode. In deze tijd ga ik samen met twee commissies aan de slag om nieuwe leden binnen te halen. Tijdens de intro periode zijn we aanwezig op verschillende evenementen, organiseren we zelf evenementen en promoten we Phileas!</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
