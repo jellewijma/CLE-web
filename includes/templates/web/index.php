@@ -1,10 +1,9 @@
 <header class="text-gray-600 body-font border-t-[20px] border-[#620d0d]">
   <div class="container mx-auto flex justify-center flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex flex-wrap items-center text-base justify-center w-1/3">
+      <a href="<?= BASE_PATH ?>" class="mr-5 hover:text-gray-900">Home</a>
       <a href="<?= BASE_PATH ?>about" class="mr-5 hover:text-gray-900">Over ons</a>
       <a href="<?= BASE_PATH ?>dashboard" class="mr-5 hover:text-gray-900">Dashboard</a>
-      <a class="mr-5 hover:text-gray-900">Third Link</a>
-      <a class="mr-5 hover:text-gray-900">Fourth Link</a>
     </nav>
     <div class="w-1/3 flex justify-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-32 w-1/3">
@@ -75,19 +74,19 @@
   </div>
 <?php } ?>
 
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font container mx-auto">
   <div class="container w-screen mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-  ">
     <img src="<?= BASE_PATH ?>images/8C8A1144.jpg" alt="" srcset="" class="w-screen h-96 object-cover ">
   </div>
 </section>
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font container mx-auto">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">De Thuishaven
       </h1>
       <p class="mb-8 leading-relaxed">Dit is het centrale punt voor alle leden van studentenvereniging Phileas Fogg, zogezegd de thuishaven, de huiskamer. Dit is de plek waar verschillende genootschappen, disputen en jaarclubs samenkomen voor activiteiten, vergaderingen én om gezamenlijk te genieten van het bier. Onze sociëteit wordt wekelijks gebruikt voor interne én externe/open feesten. Toegang tot de sociëteit is op dinsdag alleen voor leden. Op de andere dagen worden er verscheidene evenementen georganiseerd.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Openings tijden</button>
+        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-red-950 rounded text-lg">Openings tijden</button>
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Maps</button>
       </div>
     </div>
@@ -97,7 +96,7 @@
   </div>
 </section>
 <!-- invert -->
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font container mx-auto">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:pr-24 md:pr-16">
       <img class="object-cover object-center rounded" alt="hero" src="./images/IMG_3539-1024x683.jpeg">
@@ -110,14 +109,14 @@
         cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic
         tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button class="inline-flex text-white bg-[#620d0d] border-0 py-2 px-6 focus:outline-none hover:bg-red-950 rounded text-lg">Button</button>
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
       </div>
     </div>
 
   </div>
 </section>
-<section class="text-gray-600 body-font relative">
+<section class="text-gray-600 body-font relative container mx-auto">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
@@ -160,8 +159,8 @@
               </div>
             </div>
             <div class="p-2 w-full">
-              <!-- <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
-              <button type="submit" name="submit" class="flex mx-auto text-white bg-[#620d0d] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+              <!-- <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-950 rounded text-lg">Button</button> -->
+              <button type="submit" name="submit" class="flex mx-auto text-white bg-[#620d0d] border-0 py-2 px-8 focus:outline-none hover:bg-red-950 rounded text-lg">Button</button>
             </div>
           </form>
         <?php endif;  ?>
