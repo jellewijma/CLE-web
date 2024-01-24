@@ -45,7 +45,7 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Tom van Dodewaard</h2>
               <h3 class="text-gray-500 mb-3">Voorzitter</h3>
-              <p class="mb-4">Als voorzitter ben je het gezicht van de vereniging en verantwoordelijk voor wat er gedaan wordt met het Dagelijks Bestuur. Je bent het aanspreekpunt, zit alle vergaderingen voor en controleert de verschillende functies. Tijdens de officiële gelegenheden spreek je leden toe en geef je richting.</p>
+              <p class="mb-4">Als voorzitter ben je het gezicht van de vereniging en verantwoordelijk voor wat er gedaan wordt met het Dagelijks Bestuur.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -74,7 +74,7 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Cas Luijmes</h2>
               <h3 class="text-gray-500 mb-3">Vice-voorzitter</h3>
-              <p class="mb-4">Als vice-voorzitter ben je de rechterhand van de voorzitter. Naast de ondersteunende kant, speelt creativiteit en goed organisatorisch vermogen ook een grote rol. Je bent namelijk verantwoordelijk voor het organiseren van alle evenementen van Phileas Fogg. Samen met je activiteitencommissie zorg je voor het succesvol uitvoeren van de traditionele feesten en vergader je over hoe het nog beter kan!</p>
+              <p class="mb-4">Als vice-voorzitter ben je de rechterhand van de voorzitter. Naast de ondersteunende kant, speelt creativiteit en goed organisatorisch vermogen ook een grote rol.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -103,7 +103,7 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Noor Kalee</h2>
               <h3 class="text-gray-500 mb-3">Secretaris</h3>
-              <p class="mb-4">Als secretaris ben je het contactpersoon van de vereniging. Je zorgt ervoor dat alle inkomende en uitgaande post/mail wordt geregeld. Hiervoor is een gestructureerde houding erg belangrijk. Daarnaast zorg je elke 3 maanden voor een toffe editie van de Phileas periodiek. Dit doe je samen met de periodiek commissie. Uiteraard ondersteun je het Dagelijks Bestuur waar nodig.</p>
+              <p class="mb-4">Als secretaris ben je het contactpersoon van de vereniging. Je zorgt ervoor dat alle inkomende en uitgaande post/mail wordt geregeld.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -161,7 +161,7 @@
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Josephine Peeters Meijer</h2>
               <h3 class="text-gray-500 mb-3">PR-functionaris</h3>
-              <p class="mb-4">Als pr functionaris ben ik verantwoordelijk voor het werven van nieuwe sponsoren en het behouden van huidige sponsoren. Ik ben de contact persoon als bedrijven en of sponsoren contacten willen leggen met onze vereniging.</p>
+              <p class="mb-4">Als pr functionaris ben ik verantwoordelijk voor het werven van nieuwe sponsoren en het behouden van huidige sponsoren.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -189,8 +189,8 @@
             <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="<?= BASE_PATH ?>images/Fleur-1-ver.png">
             <div class="flex-grow sm:pl-8">
               <h2 class="title-font font-medium text-lg text-gray-900">Fleur Aschman</h2>
-              <h3 class="text-gray-500 mb-3">Designer</h3>
-              <p class="mb-4">Als Algemeen Coördinator ben ik verantwoordelijk voor de intro periode. In deze tijd ga ik samen met twee commissies aan de slag om nieuwe leden binnen te halen. Tijdens de intro periode zijn we aanwezig op verschillende evenementen, organiseren we zelf evenementen en promoten we Phileas!</p>
+              <h3 class="text-gray-500 mb-3">Algemeen Coördinator</h3>
+              <p class="mb-4">Als Algemeen Coördinator ben ik verantwoordelijk voor de intro periode. In deze tijd ga ik samen met twee commissies aan de slag om nieuwe leden binnen te halen.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
